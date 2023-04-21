@@ -16,6 +16,8 @@
         # 3. If the numbers are divisible by both 3 and 5 "GeekOut"
         
        
+
+
 for i in range(1, 51): #integers available is no.'s 1-50
     
     if i % 3 == 0 and i % 5 == 0:  #If the no. is divisible by both 3 & 5
@@ -27,3 +29,22 @@ for i in range(1, 51): #integers available is no.'s 1-50
     else:
         print("number:",(i))
         
+       
+        #output is as follows:
+        #number: 1
+        #number: 2
+        #number: 3 (Geek)
+        #number: 4
+        #number: 5 (Out)
+        #number: 6 (Geek)
+        #number: 7
+        #number: 8
+        #number: 9 (Geek)
+        #number: 10 (Out)
+        #number: 11
+        #number: 12 (Geek)
+        #number: 13
+        #number: 14
+        #number: 15 (GeekOut)
+        #and so...
+
