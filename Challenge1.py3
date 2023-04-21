@@ -1,5 +1,10 @@
 #made by: Gabriel S.#
 #date: 21 Apr 2023#
+
+#Note:
+#**Code will be able to work through Python 3**#
+#extension: (name).py3#
+#*recommended to use Jupyter Notebook to test or view code*#
     
     #Conditions: 
         
@@ -16,8 +21,6 @@
         # 3. If the numbers are divisible by both 3 and 5 "GeekOut"
         
        
-
-
 for i in range(1, 51): #integers available is no.'s 1-50
     
     if i % 3 == 0 and i % 5 == 0:  #If the no. is divisible by both 3 & 5
